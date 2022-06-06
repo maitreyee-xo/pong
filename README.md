@@ -21,7 +21,7 @@ Turtle (Python)
 
 # Authors
 
-Maitreyee Singh
+[Maitreyee Singh](https://github.com/maitreyee-xo)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
