@@ -1,15 +1,17 @@
 import time
-from turtle import Turtle, Screen
-from slider import Slider
+from turtle import Screen
+
 from ball import Ball
 from score_board import ScoreBoard
+from slider import Slider
+
 sc = Screen()
 sc.bgcolor("black")
 sc.setup(width=1.0, height=1.0)
 sc.tracer(0)
 sc.title("WELCOME TO PONG!")
 
-right_slider = Slider(620,0)
+right_slider = Slider(620, 0)
 left_slider = Slider(-630, 0)
 b = Ball()
 s = ScoreBoard()
