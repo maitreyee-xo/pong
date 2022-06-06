@@ -1,5 +1,6 @@
 from turtle import Turtle
 
+
 class Ball(Turtle):
     def __init__(self):
         super().__init__()
@@ -9,7 +10,6 @@ class Ball(Turtle):
         self.speed("fastest")
         self.x_move = 10
         self.y_move = 10
-
 
     def move(self):
         new_xc = self.xcor() + self.x_move
@@ -23,6 +23,5 @@ class Ball(Turtle):
         self.x_move *= -1
 
     def res(self):
-        self.goto(0,0)
+        self.goto(0, 0)
         self.bounce_x()
-
